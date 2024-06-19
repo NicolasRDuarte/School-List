@@ -5,13 +5,14 @@ export const styles = StyleSheet.create({
         padding: 15,
         elevation: 12,
         borderRadius: 7,
-        backgroundColor: '#000000c0',
-        borderWidth: 2,
-        borderColor: 'white',
+        backgroundColor: '#c1bfb5',
+        borderWidth: 4,
+        borderColor: '#8c8c8c',
         marginVertical: 5,
         flexDirection: 'row',
         justifyContent: 'space-between',
-        alignItems: 'center'
+        alignItems: 'center',
+        opacity: 0.9,
     },
     itemToBuy: {
         color: '#fff',
@@ -19,7 +20,7 @@ export const styles = StyleSheet.create({
         textDecorationLine: 'none'
     },
     itemBought: {
-        color: '#fff',
+        color: '#36494E',
         fontSize: 24,
         textDecorationLine: 'line-through'
     },

@@ -6,9 +6,10 @@ export const styles = StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',
-        backgroundColor: '#000000c0',
-        borderBottomLeftRadius: 30,
-        borderBottomRightRadius: 30,
+        backgroundColor: '#8eb1c7',
+        opacity: 0.8,
+        borderBottomWidth: 2,
+        borderColor: '#fff'
     },
     title: {
         fontSize: 26,
@@ -23,27 +24,33 @@ export const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         paddingHorizontal: 20,
-        backgroundColor: '#000000c0',
-        borderTopLeftRadius: 30,
-        borderTopRightRadius: 30,
+        backgroundColor: '#8eb1c7',
+        opacity: 0.8,
+        borderTopWidth: 2,
+        borderColor: '#fff'
     },
     inputContainer: {
-        backgroundColor: '#000',
+        backgroundColor: '#36494E',
         elevation: 40,
         flex: 1,
         height: 50,
         marginVertical: 20,
-        borderRadius: 30,
+        borderRadius: 10,
         paddingHorizontal: 20,
         justifyContent: 'center',
+        margin: 5,
+        borderWidth: 2,
+        borderColor: '#fff'
     },
     iconContainer: {
-        borderRadius: 25,
+        borderRadius: 10,
         height: 50,
         width: 50,
-        backgroundColor: '#000',
+        backgroundColor: '#36494E',
         elevation: 40,
         justifyContent: 'center',
         alignItems: 'center',
+        borderWidth: 2,
+        borderColor: '#fff'
     }
 });

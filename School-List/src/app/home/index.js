@@ -114,7 +114,7 @@ export default function index() {
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <ImageBackground 
-        source={require("../../assets/Lousa.jpg")}
+        source={require("../../assets/background.jpg")}
         resizeMode='repeat'
         style={{ flex: 1, justifyContent: 'flex-start' }}
       >
@@ -143,7 +143,7 @@ export default function index() {
             <TextInput 
               color="#fff"
               fontSize={18}
-              placeholderTextColor="#aeaeae"
+              placeholderTextColor="#fff"
               placeholder="Digite o nome do produto..."
               value={textInput}
               onChangeText={(text) => setTextInput(text)}

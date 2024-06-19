@@ -6,14 +6,11 @@ export default function Welcome() {
   return (
     <View style={styles.container}>
       <View style={styles.containerImage}>
-        <Image source={require('../assets/avatar.jpg')} style={styles.logo} />
+        <Image source={require('../assets/list.png')} style={styles.logo} />
       </View>
       <View style={styles.content}>
         <Text style={styles.title}>
           School-List
-        </Text>
-        <Text style={styles.text}>
-          Monte a sua lista de tarefas e não esqueça mais o que precisa ser feito!!!
         </Text>
         <Link style={styles.button} href={"/home"}>
           <Text style={styles.buttonText}>Acessar</Text>
@@ -27,7 +24,7 @@ export default function Welcome() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#EB4511',
+    backgroundColor: '#8eb1c7',
   },
   containerImage: {
     flex: 2,
@@ -35,17 +32,19 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   logo: {
-    width: 230,
-    height: 230,
-    borderRadius: 115,
+    width: 280,
+    height: 280,
+    borderRadius: 10,
     resizeMode: 'cover',
   },
   content: {
     flex: 1,
-    backgroundColor: "#c1bfb5",
-    borderTopLeftRadius: 25,
-    borderTopRightRadius: 25,
+    backgroundColor: "#add8e6",
     paddingHorizontal: '5%',
+    borderTopWidth: 5,
+    borderTopLeftRadius: 15,
+    borderTopRightRadius: 15,
+    borderTopColor: '#36494E',
   },
   title: {
     fontSize: 30,
@@ -60,7 +59,7 @@ const styles = StyleSheet.create({
   },
   button: {
     position: 'absolute',
-    backgroundColor: '#36494e',
+    backgroundColor: '#36494E',
     bottom: '15%',
     alignSelf: 'center',
     borderRadius: 50,
